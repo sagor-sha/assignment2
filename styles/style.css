@@ -1,0 +1,31 @@
+
+
+*{
+     margin: 0;
+     padding: 0%;
+}
+
+/* header styles */
+nav{
+     max-width: 1440px;
+     margin: 0;
+}
+
+.nav-bar{
+     display: flex;
+     justify-content: space-around;
+     
+}
+
+.logu{
+     display: flex;
+     align-items: center;
+}
+.heading{
+  font-weight: bold;
+  font-size: 2rem;
+  
+}
+.nav-link{
+     display: flex;
+}
