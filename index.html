@@ -4,37 +4,82 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Kids-School</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg
+      ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
      <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     
      <header>
+          <i class="fas fa-bars fa-2x" id="menu-icon"></i>
           <nav class="nav-bar">
                <div class="logu">
                     <img src="assets/logo.png" alt="">
-                    <h1 class="heading">SCHOOL</h1>
+                    <h1 class="heading hidden">SCHOOL</h1>
                </div>
 
-               <div class="nav-link">
+               <div class="nav-link hidden">
                     <ul>
-                         <li><a href=""> Home</a></li>
-                         <li><a href="">About</a></li>
-                         <li><a href=""> Facilities</a></li>
-                         <li><a href="">Admission</a></li>
+                         <li><a class="home" href=""> Home</a></li>
+                         <li><a class="About" href="">About</a></li>
+                         <li><a class="Facilities" href=""> Facilities</a></li>
+                         <li><a class="Admission" href="">Admission</a></li>
                     </ul>
                </div>
-                <div class="bnt">
-                    <button>Contact</button>
+                <div>
+                    <button class="button-primary hidden">Contact</button>
                 </div>
 
-
           </nav>
+          <div class="banner-section">
+               <div class="banner">
+                    <h1 class="banner-title"><span class="banner-heading">Empowering</span> <br>
+                         students from small <br>
+                          age <span class="banner-heading2">towards vision</span></h1>
+                          <p>With the courage, Confidence, Creativity and 
+                             Compassion to make their Unique Contribution 
+                             in a Diverse and Dynamic World.</p>
+                             <button class="button-primary">Enroll Now</button>
+               </div>
+
+                        <div>
+                         <img class="hero" src="assets/hero-kids.png" alt="">
+                        </div>
+          </div>
+         
 
      </header>
      
      <main>
-
+           
+           <div class="container">
+               <div class="school">
+                    <img class="school-img" src="assets/kinder.png" alt="">
+                    <h3>Kinder (3-6) Years</h3>
+                    <p>Cum sociis natoque penatibus et magnis
+                         dis parturient montes, nascetur ridiculus
+                         mu sdis parturient</p>
+                         <button>Read More</button>
+                    </div>
+               <div class="school">
+                    <img class="school-img" src="assets/elementary.png" alt="">
+                    <h3>Elementary School</h3>
+                    <p>Cum sociis natoque penatibus et magnis
+                         dis parturient montes, nascetur ridiculus
+                         mu sdis parturient</p>
+                         <button>Read More</button>
+                    </div>
+               <div class="school">
+                    <img class="school-img" src="assets/middle.png" alt="">
+                    <h3>Middle (10-16) Years</h3>
+                    <p>Cum sociis natoque penatibus et magnis
+                         dis parturient montes, nascetur ridiculus
+                         mu sdis parturient</p>
+                         <button>Read More</button>
+                    </div>
+           </div>
 
      </main>
 
